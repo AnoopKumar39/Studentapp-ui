@@ -1,0 +1,30 @@
+- name: Delpoy War File
+  hosts: all
+  become: yes
+  vars:
+    TOMCAT_LOCATION: "/home/student/apache-tomcat-9.0.30"
+  tasks: 
+    - name: Stop tomcat
+      service: 
+        name: tomcat
+        state: stopped
+
+    - name: Remove old war file
+      file:
+        path: "{{TOMCAT_LOC}}/webapps/{{item}}"
+        state: absent
+      loop:
+        - student
+        - student.war
+
+    - name: Copy the new war file
+      copy:
+        src: student.war
+        dest: "{{TOMCAT_LOC}}/webapps/student.war"
+      become_user: student
+
+    - name: Start tomcat service
+      service:
+        name: tomcat
+        state: started
+        

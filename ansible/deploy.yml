@@ -11,7 +11,7 @@
 
     - name: Remove old war file
       file:
-        path: "{{TOMCAT_LOC}}/webapps/{{item}}"
+        path: "{{TOMCAT_LOCATION}}/webapps/{{item}}"
         state: absent
       loop:
         - student
@@ -20,7 +20,7 @@
     - name: Copy the new war file
       copy:
         src: student.war
-        dest: "{{TOMCAT_LOC}}/webapps/student.war"
+        dest: "{{TOMCAT_LOCATION}}/webapps/student.war"
       become_user: student
 
     - name: Start tomcat service

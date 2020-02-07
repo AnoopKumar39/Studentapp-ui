@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://172.31.13.251:8081/repository/maven-releases/</url>
+            <url>http://nexus.devopsprac.ml:8081/repository/studentapp-ui-releases/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://172.31.13.251:8081/repository/maven-snapshots/</url>
+            <url>http://nexus.devopsprac.ml:8081/repository/studentapp-ui-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>

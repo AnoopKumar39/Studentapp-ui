@@ -111,7 +111,7 @@ under the License.
   <servers>
     <server>
       <id>deployment</id>
-      <username>admin</username>
+      <username>studentapp</username>
       <password>pass</password>
     </server>
     <!-- server

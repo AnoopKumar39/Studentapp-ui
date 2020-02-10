@@ -111,8 +111,8 @@ under the License.
   <servers>
     <server>
       <id>deployment</id>
-      <username>studentapp</username>
-      <password>pass</password>
+      <username>${NEXUS_USR}</username>
+      <password>${NEXUS_PSW}</password>
     </server>
     <!-- server
      | Specifies the authentication information to use when connecting to a particular server, identified by

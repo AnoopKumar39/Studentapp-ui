@@ -35,12 +35,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://admin:admin@nexus.devopsprac.ml:8081/repository/student-release/</url>
+            <url>http://ak:ak@nexus.devopsprac.ml:8081/repository/student-release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://admin:admin@nexus.devopsprac.ml:8081/repository/student-snapshot/</url>
+            <url>http://ak:ak@nexus.devopsprac.ml:8081/repository/student-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>

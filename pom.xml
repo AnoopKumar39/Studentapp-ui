@@ -35,12 +35,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://nexus.devopsprac.ml:8081/repository/studentapp-ui-releases/</url>
+            <url>http://34.68.215.158:8081/repository/student-release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://nexus.devopsprac.ml:8081/repository/studentapp-ui-snapshot/</url>
+            <url>http://34.68.215.158:8081/repository/student-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>

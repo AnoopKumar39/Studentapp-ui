@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jdevs</groupId>
   <artifactId>studentapp</artifactId>
-  <version>3.0.1</version>
+  <version>4.0.0-SNAPSHOT</version>
   <packaging>war</packaging>
   
   <scm>

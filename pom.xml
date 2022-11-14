@@ -35,12 +35,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://admin:admin@54.242.58.152:8081/repository/student-release/</url>
+            <url>http://35.175.248.181:8081/repository/student-release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://admin:admin@54.242.58.152:8081//repository/student-snapshot/</url>
+            <url>http://35.175.248.181:8081/repository/student-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
